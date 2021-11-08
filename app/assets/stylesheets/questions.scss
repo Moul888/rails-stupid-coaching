@@ -1,0 +1,30 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.user-input {
+   display: flex;
+   margin: 10px 0;
+   .insert {
+     padding: 10px 10px;
+     border: 1px solid gray;
+     border-radius: 5px;
+   }
+   .btn {
+     background-color: rgb(51, 122, 183);
+     color: white;
+     border-radius: 5px;
+     font-weight: bolder;
+
+   }
+ }
+
+ .user {
+   border-left: 5px solid rgb(179, 178, 178);
+   padding-left: 10px;
+ }
+
+ .coach {
+   border-left: 5px solid rgb(179, 178, 178);
+   padding-left: 10px;
+   background-color: #FFFFE1;
+ }
